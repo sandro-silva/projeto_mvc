@@ -1,5 +1,9 @@
 package br.com.sandro.projeto.controller;
 
+import br.com.sandro.projeto.dao.UsuarioDAO;
+import br.com.sandro.projeto.model.Usuario;
+import java.util.List;
+
 public class UsuarioController {
     private UsuarioDAO usuarioDAO = new UsuarioDAO();
 
