@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class UsuarioView {
     private UsuarioController controller = new UsuarioController();
-    private Scanner sc = new Scanner(System.in);
+    private Scanner sc = new Scanner(System.in, "UTF-8");
 
     public void iniciar() {
         int opcao;
